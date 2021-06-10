@@ -1,0 +1,69 @@
+body{
+	background:#900C3F;
+
+}
+
+#principal ul{
+	text-align:center;
+	padding: 20px;
+	border: 3px;
+	margin: 10px;
+	list-style:none;
+	float:center;
+
+}
+#principal ul a{
+	background:white;
+	color:black;
+	float: left;
+	padding: 10px 75px;
+	display: block;
+	text-decoration:none;
+
+}
+
+.controls{
+	background: white;
+	padding: 10px;
+	margin-bottom: 16px;
+}
+.control{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+#logo{
+
+
+	border:none;
+	margin-left: auto;
+	margin-right: auto;
+	flex: box;
+	height: 30vh;
+	display: block;
+	padding-top: 30px;
+}
+
+#formulario{
+	text-align: center;
+	left: 30%;
+
+}
+#formulario ul{
+	
+	width: 25%;
+    text-align:center;
+	list-style: none;
+    border-bottom: 16px;
+	padding: 10px;
+	margin-left:500px;
+
+}
+#ingresar{
+	margin-top: 10px;
+}
+
+
+
