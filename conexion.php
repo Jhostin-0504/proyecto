@@ -1,21 +1,20 @@
 <?php
  
-$conexion = mysqli_connect('localhost','root','','baseinventarios') or die(mysql_error)(mysiqli));
+$conexion = mysqli_connect('localhost','root','','inventarios') or die(mysql_error)(mysiqli));
 
 insertar($conexion);
 
 function isertar($conexion){
     $nombres = $_post['Nombres'];
     $apellidos = $_post['Apellidos';
-    $razon social = $_post['Razon social'];
-    $nit/c.c = $_post['Nit/Cedula'];
+    $razon_social = $_post['Razon_social'];
     $telefono = $_post['Telefono'];
     $correo = $_post['Correo'];
     $direccion = $_post['Direccion'];
 
-    $consulta = "INSERT INTO persona(Nombres ,Apellidos, Razon social, Nit/Cedula, Telefono, Correo, Direccion)
-    VALUES  ('$nombres', '$apellidos', '$razon social', '$nit/c.c', '$telefono', '$correo', '$direccion')";
-    
+    $consulta = " INSERT INTO clintes(Nombre,Apellidos, Razonsocial, Telefono, Correo, Direccion)
+     VALUES ($nombres,$apellidos,$razon_social,$telefono,$correo, $direccion)";
+   
     mysqli_query($conexion, $consulta);
     mysqli_close($conexion);
 
