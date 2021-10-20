@@ -1,7 +1,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <link href="estilo.css" rel="stylesheet" />
+    <link href="css/estilo.css" rel="stylesheet" />
     <title>HVG</title>
   </head>
   <body >
@@ -23,49 +23,34 @@
      
  
   </div>
- 
    </div>
    <div id=columnas class="columnas">
     <img id="logo" src="imagenes/Logo.png" />
-      <div id="cuadro" class="cuadro">
-        <form id="formulario" action="conexion.php" method="post" name="formulario">
-          <h2>Crear cotización</h2>
+     <div id="cuadro" class="cuadro">
+        <form id="formulario" action="crearCliente.php" method="POST" name="formulario">
+          <h2>Ingresar nuevo cliente</h2>
           <ul>
-            <li>
-              
-              <input type="text" placeholder="Cliente">
+          <li>
+              <input type="text" placeholder="nombres" name="nombres" value="Jofree">
             </li>
-            <li>
-             
-              <input type="text" placeholder="Cedula Cliente">
-            </li>
-
              <li>
-            
-              <input type="text" placeholder="Fecha" required="date">
+              <input type="text" placeholder="Apellidos"  name="Apellidos"  value="Jofree">
             </li>
-            
              <li>
-              
-              <input type="text" placeholder="Costo">
+              <input type="text" placeholder="Razonsocial"  name="Razonsocial" value="Jofree">
             </li>
-              <li>
-              
-              <input type="text" placeholder="Producto">
-            </li>
-
             <li>
-              
-              <input type="text" placeholder="Descuentos">
+              <input type="tel" placeholder="Telefono" name="Telefono"  value="3112848699">
             </li>
-
-
-
-
-              <button id="Ingresar" type="submit">Crear</button>
-
+            <li>
+              <input type="email" placeholder="Correo" name="Correo"  value="jofree@gmail.com">
+            </li>
+             <li>
+              <input type="text" placeholder="Direccion" name="Direccion" value="jofr gmail.com">
+            </li>
+            <button id="Ingresar" type="submit">Crear</button>
+            <button id="Ingresar" type="reset">Limpiar</button>
           </ul>
-          
         </form>
       </div>
 </div>
