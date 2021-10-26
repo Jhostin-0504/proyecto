@@ -30,6 +30,7 @@ body{
 .control{
 	padding: 5px;
 	margin-bottom: 5px;
+	
 }
 
 
@@ -63,8 +64,4 @@ body{
 }
 #ingresar{
 	margin-top: 10px;
-}
-
-.table{
-	width: 100%;
 }

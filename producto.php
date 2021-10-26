@@ -5,7 +5,7 @@
     <title>HVG</title>
   </head>
   <body >
-  <header>
+  
     <div id="principal">
       <div id="cabecera">
         <nav>
@@ -16,38 +16,41 @@
             <li><a href="usuario.php">Usuarios</a></li>
             <li><a href="cotizacion.php">Cotizaciones</a></li>
             <li><a href="factura.php">Facturas</a></li>
-            
           </ul>
         </nav>
+        
+       
      
+ 
   </div>
  
    </div>
    <div id=columnas class="columnas">
     <img id="logo" src="imagenes/Logo.png" />
-       <div id="cuadro" class="cuadro">
-        <form id="formulario" action="login.php" method="Post" name="formulario">
-          <h2>Ingresar al Sistema</h2>
+     <div id="cuadro" class="cuadro">
+        <form id="formulario" action="crearprodcuto.php" method="POST" name="formulario">
+          <h2>Ingresar nuevo producto</h2>
           <ul>
             <li>
-              <label>Email</label>
-              <input class="controls" type="email" name="email" value="" placeholder="Ingrese su correo">
-            </li>
+            <input type="text" name="caracteristicas" placeholder="Carateristicas"></li>
+            <input type="text" name="cantidad" placeholder="cantidad"></li>
+            <li><input type="text" name="costo" placeholder="Costo"></li>
             <li>
-              <label>Password</label>
-              <input class="controls" type="password"  name="password" value="" placeholder="Ingrese su contraseña">
-            </li>
-              <button id="Ingresar" type="submit">Ingresar</button>
-              <button id="Crear"  type="button" target="_blank">Crear cuenta</button> 
+           
+            
+              <button id="Ingresar" type="submit">Crear</button>
+              <button id="Ingresar" type="reset">Limpiar</button>
           </ul>
 
         </form>
       </div>
 </div>
 
-  </header>
+  
        
   <div>
+    
+
     <footer>
         <p>Contáctenos</p>
         <p>Celular: 3227371726</p>
@@ -57,7 +60,7 @@
 
 
   </div>
-  <script src="js/index.js"></script>
+    
   </body>
 
 </html>

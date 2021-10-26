@@ -5,7 +5,7 @@
     <title>HVG</title>
   </head>
   <body >
-  <header>
+  
     <div id="principal">
       <div id="cabecera">
         <nav>
@@ -16,38 +16,44 @@
             <li><a href="usuario.php">Usuarios</a></li>
             <li><a href="cotizacion.php">Cotizaciones</a></li>
             <li><a href="factura.php">Facturas</a></li>
-            
           </ul>
         </nav>
-     
   </div>
  
    </div>
    <div id=columnas class="columnas">
     <img id="logo" src="imagenes/Logo.png" />
-       <div id="cuadro" class="cuadro">
-        <form id="formulario" action="login.php" method="Post" name="formulario">
-          <h2>Ingresar al Sistema</h2>
+   <div id="cuadro" class="cuadro">
+        <form id="formulario" action="crearUsuario.php" method="POST" name="formulario">
+          <h2>Crear cuenta</h2>
           <ul>
             <li>
-              <label>Email</label>
-              <input class="controls" type="email" name="email" value="" placeholder="Ingrese su correo">
+             
+              <input type="text" placeholder="Nombres" name="Nombres" value="">
             </li>
             <li>
-              <label>Password</label>
-              <input class="controls" type="password"  name="password" value="" placeholder="Ingrese su contraseña">
+             <input type="text" placeholder="Apellidos" name="Apellidos" value="">
             </li>
-              <button id="Ingresar" type="submit">Ingresar</button>
-              <button id="Crear"  type="button" target="_blank">Crear cuenta</button> 
+             <li> 
+             <input type="text" placeholder="Cargo" name="Cargo" value="">
+            </li>
+              <li>
+             <input type="password" placeholder="Contraseña" name="Contraseña" value="">
+            </li>
+           <li>
+              <input type="email" placeholder="Correo" name="Correo" value="">
+            </li>
+              <button id="Ingresar" type="submit">Crear</button>
+              <button id="Ingresar" type="reset">Limpiar</button>
           </ul>
 
         </form>
       </div>
 </div>
 
-  </header>
-       
   <div>
+    
+
     <footer>
         <p>Contáctenos</p>
         <p>Celular: 3227371726</p>
@@ -57,7 +63,7 @@
 
 
   </div>
-  <script src="js/index.js"></script>
+    
   </body>
 
 </html>

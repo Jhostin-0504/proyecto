@@ -10,12 +10,12 @@
       <div id="cabecera">
         <nav>
           <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="producto.html">Productos</a></li>
-            <li><a href="cliente.html">Clientes</a></li>
-            <li><a href="usuario.html">Usuarios</a></li>
-            <li><a href="cotizacion.html">Cotizaciones</a></li>
-              <li><a href="factura.html">Facturas</a></li>
+            <li><a href="index.php">Inicio</a></li>
+            <li><a href="producto.php">Productos</a></li>
+            <li><a href="cliente.php">Clientes</a></li>
+            <li><a href="usuario.php">Usuarios</a></li>
+            <li><a href="cotizacion.php">Cotizaciones</a></li>
+              <li><a href="factura.php">Facturas</a></li>
           </ul>
         </nav>
         
@@ -31,22 +31,22 @@
           <h2>Ingresar nuevo cliente</h2>
           <ul>
           <li>
-              <input type="text" placeholder="nombres" name="nombres" value="Jofree">
+              <input type="text" placeholder="nombres" name="nombres" value="">
             </li>
              <li>
-              <input type="text" placeholder="Apellidos"  name="Apellidos"  value="Jofree">
+              <input type="text" placeholder="Apellidos"  name="Apellidos"  value="">
             </li>
              <li>
-              <input type="text" placeholder="Razonsocial"  name="Razonsocial" value="Jofree">
+              <input type="text" placeholder="Razonsocial"  name="Razonsocial" value="">
             </li>
             <li>
-              <input type="tel" placeholder="Telefono" name="Telefono"  value="3112848699">
+              <input type="tel" placeholder="Telefono" name="Telefono"  value="">
             </li>
             <li>
-              <input type="email" placeholder="Correo" name="Correo"  value="jofree@gmail.com">
+              <input type="email" placeholder="Correo" name="Correo"  value="">
             </li>
              <li>
-              <input type="text" placeholder="Direccion" name="Direccion" value="jofr gmail.com">
+              <input type="text" placeholder="Direccion" name="Direccion" value="">
             </li>
             <button id="Ingresar" type="submit">Crear</button>
             <button id="Ingresar" type="reset">Limpiar</button>
